@@ -10,7 +10,7 @@ function App(props) {
   const [tasks, setTasks] = useState(props.tasks);
 
   function toggleCompleted(id) {
-    function toggleTaskCompleted(id) {
+    function toggleCompleted(id) {
       const updatedTasks = tasks.map((task) => {
         // if this task has the same ID as the edited task
         if (id === task.id) {
